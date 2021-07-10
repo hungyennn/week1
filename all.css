@@ -1,0 +1,202 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+.wrap{
+    margin: 0 auto;
+    width: 1920px;
+}
+.font1{
+    font-family: "Noto Sans TC";
+}
+.font2{
+    font-family: "Roboto";
+}
+.font2_l{
+    font-family: "Roboto";
+    font-weight: lighter;
+}
+.font3{
+    font-family: "PingFang TC";
+    font-weight: 700;
+}
+h2{
+    font-size: 32px;
+    line-height: 43px;
+}
+.header{
+    margin: 37px 360px 72px;
+}
+.header h1{
+    font-size: 80px;
+    line-height: 106px;
+    font-weight: 500;
+}
+.header_hr{
+    height: 2px;
+    background-color: #000;
+    border: none;
+}
+.header img{
+    margin: 50px 0;
+}
+.header span, .work span{
+    font-size: 24px;
+    line-height: 32px;
+    color: #A00404;
+    padding-left: 16px;
+    font-weight: 500;
+}
+.header p, .des_text1, .des_text{
+    font-size: 24px;
+    line-height: 36px;
+}
+.profile1, .education1{
+    margin-top: 16px;
+}
+.profile2, .education2{
+    margin: 24px 0 72px 0;
+}
+
+.skills_bg{
+    background: #415165;
+}
+.skills{
+    width: 996px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px 0; 
+}
+.skills h2{
+    color: #FFFFFF;
+    font-size: 32px;
+    line-height: 45px;
+}
+.skills span{
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-left: 16px;
+    font-weight: 500;
+}
+.skills hr{
+    color: #FFFFFF;
+}
+.ability{
+    margin-top: 30px ;
+    margin-left: 400px;
+    border-left: 1px solid #96A9C4; 
+}
+.ability p{
+    padding-left: 24px;
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.work{
+    margin: 72px 360px 72px;
+}
+.description{
+    border-left: 1px solid #96A9C4;
+    margin: 24px 0 0 24px;
+    width: 642px;
+}
+.description p, .description img{
+    padding-left: 24px;
+}
+.description img{
+    margin: 8px 0;
+    width: 90px;
+    height: 90px;
+}
+.des_text1{
+    margin-bottom: 24px;
+}
+.des_text2{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 24px;
+}
+.footer{
+    text-align: center;
+    background: #415165;
+    color: #FFFFFF;    
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 36px;
+}
+.footer a{
+    padding-right: 24px;
+}
+.footer a:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.footer h2{
+    padding-top: 24px;
+}
+.footer span{
+    padding-left: 16px;
+    font-size: 24px;
+    line-height: 32px;
+}
+.footer p{
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 11px;
+}
+.footer hr{
+    color: #FFFFFF;
+    width: 1200px;
+    margin: 8px 360px 30px; 
+}
