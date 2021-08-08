@@ -1,0 +1,34 @@
+.skills_bg{
+    background: #415165;
+    color: #fff;
+}
+.skills{
+    width: 996px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 24px 0 36px 0; 
+    h2{
+        font-size: 32px;
+    }
+    h2 span{
+        font-size: 24px;
+        line-height: 32px;
+        padding-left: 16px;
+        font-weight: 500;
+    }
+}
+.line_white{
+    border-bottom:1px solid white;
+}
+.ability{
+    // margin-left: 400px;
+    width: 220px;
+    margin: 0 auto;
+    border-left: 1px solid #96A9C4; 
+    li{
+        padding-left: 24px;
+        font-size: 24px;
+        text-align: left;
+        font-weight: 300;
+    }
+}

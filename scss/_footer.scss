@@ -1,0 +1,32 @@
+.footer_bg{
+    background: #415165;
+    color: #fff;
+}
+.footer{
+    width: 996px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 24px 0 36px 0; 
+    h2{
+        font-size: 32px;
+    }
+    h2 span{
+        font-size: 24px;
+        line-height: 32px;
+        padding-left: 16px;
+        font-weight: 500;
+    }
+    ul li{
+        font-size: 24px;
+        font-weight: 300;
+    }
+    ul li a{
+        color: white;
+        text-decoration: none;
+    }
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
